@@ -1,0 +1,22 @@
+.color-selection
+{
+    display: flex;
+    margin-top: 10px;
+}
+.color-box{
+    margin-right: 1.2vw;
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+@media (max-width:768px){
+    .color-box{
+        width: 4vw;
+        height: 4vw;
+    }
+ 
+}

@@ -1,0 +1,13 @@
+{
+    "status": "success",
+    "message": "login successfully",
+    "data": {
+      "username": "Andy",
+      "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjkyNDI5NzYxLCJleHAiOjE2OTI0NjU3NjF9.et7gMYA62lVllNwGTKVyb3zlFa3YweKwjIOrIA8POR8",
+      "refresh_token": "zI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjkyNDI",
+      "expires_in": 3600 
+    } 
+}
+
+
+  

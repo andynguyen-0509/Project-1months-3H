@@ -1,0 +1,33 @@
+.selection-bar {
+    display: flex;
+    font-size: 1.3vw;
+    font-style: normal;
+    font-weight: 700;
+    margin-left: 40%;
+    margin-top: 10vw;
+
+    .selection {
+        margin-right: 2vw;
+        text-align: center;
+        padding-left: 2vw;
+        padding-right: 2vw;
+
+        cursor: pointer;
+        border-bottom: 2px solid transparent; /* Border mặc định */
+        &.active {
+            border-bottom-color: #FFD333; /* Màu border gạch chân */
+        }
+        &:hover {
+            border-bottom-color: #FFD333; /* Màu border gạch chân khi hover */
+        }
+        transition: border-bottom-color 0.3s ease;
+    }
+}
+
+@media (max-width: 768px){
+    .selection-bar{
+        font-size: 2.5vw;
+        margin-left: 30%;
+    }
+    
+}

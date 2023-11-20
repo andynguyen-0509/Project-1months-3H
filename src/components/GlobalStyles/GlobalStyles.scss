@@ -1,0 +1,35 @@
+@import 'normalize.css';
+
+
+
+@font-face {
+    font-family: 'GilroyBlack';
+    src: url('../../assets/fonts/SVN-Gilroy Regular.otf') format('opentype');
+    font-style: normal; /* Đây là font không in nghiêng */
+  }
+
+:root {
+    --black: #000;
+    --white: #fff;
+    --font-family: 'GilroyBlack', sans-serif;
+    --font-logo: 'GilroyBlack', sans-serif;
+
+    --default-layout-header-height: 162px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    // font-family: 'GilroyBlack', sans-serif;
+    font-family: var(--font-family);
+    font-size: 1.6rem;
+    line-height: 1.5;
+}

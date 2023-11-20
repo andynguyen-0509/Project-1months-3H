@@ -1,0 +1,17 @@
+.top-bar{
+    display: flex;
+    height: 38px;
+    // width:100%;
+    padding-left: 10%;
+    padding-top: 10px;
+    border-radius: 5px 5px 0px 0px;
+    background: #F0E9E9;
+}
+.item{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 10px;
+    cursor: pointer;
+}

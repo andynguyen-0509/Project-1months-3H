@@ -1,0 +1,74 @@
+/* Checkout.module.scss (hoặc Checkout.css) */
+.step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+
+    border-radius: 4px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  .container{
+    display:flex;
+
+}
+.order-process{
+    font-size: 30px;
+    margin-top: 50px;
+    font-weight:bold;
+    margin-left: 20px;
+}
+  .navigation{
+    display: flex;
+    margin-top: 30px;
+  }
+  .selectedNumber{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:#FFD333;
+    font-weight: 700;
+  }
+  .unselectedNumber{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #6e6b6b
+ 
+  }
+  
+  .selectedTitle{
+    // font-weight:bold;
+    font-size: 20px;
+    color: black;
+    margin-top: 20px;
+  }
+  .unselectedTitle{
+    font-size: 20px;
+    color: #8b8989; 
+    margin-top: 20px;
+  }
+  .selectedLine{
+    height: 2px;
+    width: 280px;
+    background-color: #FFD333;
+    margin-top: 30px;
+  }
+  .unselectedLine{
+    height: 2px;
+    width: 280px;
+    background-color:#d8d2d2;
+    margin-top: 30px;
+  }
+  .wrapper{
+ 
+  }
+  
+  

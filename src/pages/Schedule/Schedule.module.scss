@@ -1,0 +1,36 @@
+.container {
+    margin-top: 22px;
+}
+.wrapper {
+    margin-left: 12px;
+}
+.path {
+    margin-top: 16px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #6b778c;
+
+    span {
+        margin-right: 8px;
+    }
+}
+.main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.title {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+}
+.action {
+    width: 24px;
+    height: 24px;
+    margin-right: 20px;
+}

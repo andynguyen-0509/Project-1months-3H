@@ -1,0 +1,149 @@
+.navigation{
+    margin-top: 1vw;
+    margin-bottom:  1vw;
+}
+.product-detail{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    width: 100%;
+    gap:2%;
+    
+   
+}
+.name{
+    font-size: 2.7vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.32px;
+}
+.product-info{
+    // background-color: #04941B;
+}
+
+.rating-review-sold{
+    display: flex;
+    height: 1vw;
+    margin-left: 1vw;
+    margin-top: 1.4vw;
+    align-items: center;
+    font-size: 1vw;
+}
+.rating{
+    margin-right: 1vw ;
+}
+.review{
+    margin-left:  1vw;
+    margin-right: 1vw;
+}
+.sold{
+    margin-left: 1vw;
+}
+.description{
+    width: 40vw;
+    margin-top: 2vw;
+    font-size: 1vw;
+}
+.stock{
+    color: #04941B;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.status-brand-sku{
+    display: flex;
+    margin-top: 1.3vw;
+    color: #5A5A5A;
+    font-size: 0.8vw;
+    font-style: normal;
+    font-weight: 400;
+    justify-content: space-between;
+    padding-right: 30%;
+}
+.price-discount{
+    display: flex;
+    column-gap:10%;
+    padding-right: 60%;
+    margin-top: 1.3vw;
+    align-items: center;
+    // background-color: #04941B;
+}
+.price{
+    font-size: 1.6vw;
+    font-style: normal;
+    font-weight: 700;
+}
+.discount{
+    width: 6vw;
+    height: 2vw;
+    border-radius: 5px;
+    border: 1px solid rgba(186, 186, 186, 0.40);
+    background: #FFD333;
+    color: #C90404;
+    text-align: center;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 700;
+}
+.color{
+    margin-top: 1vw;
+    color: #5A5A5A;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.quantity{
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 700;
+    color: #5A5A5A;
+    margin-top: 1.3vw;
+}
+.product-image{
+    width: 100%;
+}
+@media (max-width:768px){
+    .product-detail{
+       display:grid;
+       grid-template-columns: 100%;
+      
+    }
+    .description{
+        font-size: 3vw;
+        margin-top: 10%;
+        width: 70vw;
+    }
+    .rating-review-sold, .color-text, .quantity-text, .stock{
+        font-size: 2.5vw;
+    }
+    .name{
+        font-size: 4vw;
+    }
+    .status-brand-sku{
+        font-size: 2.5vw;
+    }
+    .price{
+        font-size: 3.5vw;
+        width: 25vw;
+    }
+    .discount{
+        font-size: 3vw;
+        width: 15vw;
+        height: 5vw;
+    }
+    .price-discount{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+}
+
+
+// @media (max-width:768px){
+
+//     .product-image{
+//         width: 40%;
+//     }
+// }

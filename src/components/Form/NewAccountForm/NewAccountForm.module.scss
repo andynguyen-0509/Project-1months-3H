@@ -1,0 +1,72 @@
+.login-form{
+    display: flex;
+    width: 400px;
+    margin-top: 30px;
+
+}
+
+.forgot-password{
+    border: none;
+    border-bottom: 1px solid #000; /* Màu viền dưới */
+    outline: none; 
+    padding-top: 20px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    cursor: pointer;
+}
+.right-part{
+    margin-left: 50px;
+}
+.password-container{
+    display: flex;
+    // margin-top: 20px;
+}
+.title{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+}
+.wrapper{
+    // padding-left: 47px;
+    width: 832px;
+    height: 395px;
+    border: 1px solid #FAF096;
+    border-radius: 10px;
+    display: flex;
+    background-color:white;
+    // background-color: azure;
+}
+.login-button{
+    width: 295px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    border-radius: 4px;
+    background-color: #FFD333;
+}
+.logo-form{
+    background-color: #FAF096;
+    width: 430px;
+    height: 395px;
+    border-radius: 10px;
+}
+.login{
+    margin-left: 35%;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+}
+.login:hover{
+    color:#FFD333
+}
+.close-btn{
+    margin-top: 5px;
+    margin-left: 94%;
+    cursor: pointer;
+}

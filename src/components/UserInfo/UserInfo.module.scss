@@ -1,0 +1,139 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    height: 84px;
+    padding: 16px;
+}
+.path {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 400;
+    color: #6b778c;
+    display: flex;
+    align-items: center;
+
+    span {
+        margin-right: 8px;
+    }
+}
+.main-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.title {
+    font-size: 2rem;
+    line-height: 2.8rem;
+    font-weight: 500;
+    color: #172b4d;
+    display: flex;
+    align-items: center;
+}
+.container {
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    background: #e7ebf0;
+    box-shadow: 0 1px 3px rgba(9, 30, 66, 0.13), 0 -1px 3px rgba(9, 30, 66, 0.13);
+}
+.img {
+    height: 250px;
+    padding: 30px 0 30px 30px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 70%;
+    padding: 50px 0 10px 0;
+}
+.user_header {
+    color: #6b778c;
+    font-size: 2rem;
+    border-bottom-style: solid;
+    width: 200px;
+}
+.user_info {
+    display: flex;
+
+    height: 200px;
+    position: relative;
+    flex-direction: column;
+    width: 300px;
+    justify-content: space-evenly;
+}
+.username {
+    display: flex;
+    padding: 8px;
+    align-items: flex-end;
+    background-color: #fff;
+    color: #424242;
+    border: 1px solid;
+    border-color: #e0e0e0;
+    border-radius: 8px;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+.password {
+    display: block;
+    padding: 8px;
+
+    background-color: #fff;
+    color: #424242;
+    border: 1px solid;
+    border-color: #e0e0e0;
+    border-radius: 8px;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+.btn {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0rem;
+}
+.submit {
+    width: 96px;
+    height: 32px;
+    padding: 6px 12px;
+
+    color: var(--white);
+    background-color: #673ab7;
+    font-size: 1.4rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #4527a0;
+    }
+}
+.err {
+    font-size: 1.2rem;
+    color: red;
+    position: absolute;
+    top: 130px;
+    right: 0;
+    bottom: 0;
+    left: 10px;
+}
+.success {
+    position: fixed;
+    display: flex;
+    right: 15px;
+    top: 90vh;
+    width: 15vw;
+    height: 10vh;
+    font-size: 1.4rem;
+}
+
+.loading {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}

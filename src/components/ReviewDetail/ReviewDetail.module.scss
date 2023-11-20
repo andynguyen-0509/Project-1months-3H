@@ -1,0 +1,25 @@
+.wrapper{
+    display: flex;
+    gap: 2vw;
+}
+.name{
+    font-size: 1.2vw;
+    font-style: normal;
+    font-weight: 700;
+}
+.comment{
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 400;
+}
+.date{
+    color: #5A5A5A;
+    font-size: 0.9vw;
+    font-style: normal;
+    font-weight: 700;
+}
+@media (max-width: 768px){
+       .name,.comment,.date{
+          font-size: 2.5vw;
+       }
+}

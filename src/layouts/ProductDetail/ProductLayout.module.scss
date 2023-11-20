@@ -1,0 +1,30 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    
+    // height: 100vh;
+    column-gap: 10%;
+}
+.header{
+    height: 15vh;
+    z-index: 1;
+  
+}
+
+.content {
+    height: 100px;
+    margin-top: 7vh;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+.login-container{
+
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}

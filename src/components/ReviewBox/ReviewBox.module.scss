@@ -1,0 +1,63 @@
+.reviews{
+    margin-left: 4vw;
+    height: 60%;
+}
+.title{
+    font-size: 1.6vw;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.pagination{
+   margin-left: 50%;
+}
+.rating-input{
+    height: 2vw;
+    margin-bottom: 1vw;
+}
+.post-btn{
+    width: 10vw;
+    height: 3vw;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFD333;
+    border: none;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 0.8vw;
+}
+.comment-title{
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 700;
+}
+.write-comment{
+    margin-top: 3vw;
+  
+}
+
+@media (max-width: 768px){
+    .title{
+        font-size: 3vw;
+    }
+    .pagination{
+        width: 70%;
+        height: 50%;
+        margin-left: 10%;
+    }
+    .comment-title{
+        font-size: 3vw;
+    }
+    .post-btn{
+        width: 20vw;
+        height: 5vw;
+        font-size: 2vw;
+    }
+    .write-comment{
+        padding-left: 2vw;
+    }
+    .rating-input{
+        margin-bottom: 4vw;
+    }
+}

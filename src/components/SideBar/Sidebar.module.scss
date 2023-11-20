@@ -1,0 +1,11 @@
+.wrapper {
+   
+    width: 24%;
+    background-color: #FAFBFC;
+}
+
+@media (max-width: 768px) {
+    .wrapper{
+      height: 120vh; /* Điều chỉnh chiều cao khi viewport width nhỏ hơn 768px */
+    }
+  }
